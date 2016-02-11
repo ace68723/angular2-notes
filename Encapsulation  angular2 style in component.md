@@ -1,5 +1,9 @@
 ### How to make a global style in component (ViewEncapsulation.None)
 global style in and component style out
+
+```html
+<link ios-href="build/css/app.ios.css" rel="stylesheet">
+```
 ```typescript
 import {ViewEncapsulation} from 'angular2/core';
 
